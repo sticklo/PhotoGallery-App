@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+
+	background-color: #24252a;
+    
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+.sticklo {
+	display: flex;
+	justify-content: center;
+
+}
+
+.pga {
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	font-family: cursive;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	color: #edf0f1;
+}
+
+
+h3 {
+
+	font-family: cursive;
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	color: #edf0f1;
+}
+img {
+   width: 450px;
+   height: 300;
+   margin: 10px;
+   transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+li, a {
+	font-family: "Monserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+.nav-links {
+	list-style:none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a  {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+	color: pink;
+} 
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+
+hr {
+	 border: 1px solid pink;
+}
+
+
+.avi{
+	border-radius: 100%;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	color: white;
+	font-weight: 500;
+	font-size: 16px
+
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	}
+
+	footer p {
+		color: solid pink;
+	}
+
